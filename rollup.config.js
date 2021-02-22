@@ -51,9 +51,7 @@ export default {
             dev: !production, // run-time checks      
             // Extract component CSS — better performance
             css: css => css.write(`bundle.css`),
-            hot: {
-                isNollup: true
-            },
+            hot: isNollup,
             preprocess: [
                 // svelte-windicss-preprocess
                 require('svelte-windicss-preprocess').preprocess({

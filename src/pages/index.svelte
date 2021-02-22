@@ -1,6 +1,6 @@
 <script>
     import { metatags } from "@roxi/routify";
-    metatags.title = "My Routify app";
+    metatags.title = "Seat Select";
     metatags.description = "Description coming soon...";
 
     let url = "";
@@ -12,7 +12,7 @@
         bind:value={url}
         type="text"
         placeholder="Enter your ID..."
-        class="w-full border-none p-2 bg-gray-600 text-white"
+        class="w-full border-none p-2 bg-gray-600"
     />
     <a href="/seats/{url}" class="rounded bg-green-600 ml-3 py-2 px-6">Go</a>
 </div>

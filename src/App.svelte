@@ -6,11 +6,13 @@
 <Router {routes} />
 
 <style global type="text/postcss">
+  @import "../assets/global.css";
+
   :global(body) {
-    @apply text-white font-sans bg-gray-800;
+    @apply font-sans text-white bg-gray-800;
   }
-  
-  :global(button, input) {
-      @apply text-lg rounded border-none;
+
+  :global(button) {
+    @apply border-none;
   }
 </style>
