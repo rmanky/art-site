@@ -5,11 +5,12 @@
   command = "npm run build && cd api/netlify && npm run build"
 
 # Dev doesn't work yet. Any takers?
-# [dev]  
-  # command = "npm run dev:ssr"
-  # targetPort = 5000
-  # publish = "assets"
-  # autoLaunch = true
+[dev]
+  framework = "#custom"  
+  command = "npm run dev:ssr"
+  targetPort = 5000
+  publish = "assets"
+  autoLaunch = true
 
 [[redirects]]
   # SSR and SPA
