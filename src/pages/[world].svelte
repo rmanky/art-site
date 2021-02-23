@@ -21,6 +21,22 @@
             <img class="item" alt={world} src="/worlds/{world}/{image}" />
         {/each}
     {/if}
+    {#if world === "fire"}
+        <iframe
+            class="item h-100"
+            title="360"
+            allowfullscreen
+            style="border-style:none;"
+            src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https%3A//i.imgur.com/dsKn9pC.png"
+        />
+        <iframe
+            class="item h-100"
+            title="360"
+            allowfullscreen
+            style="border-style:none;"
+            src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https%3A//i.imgur.com/TdZYu7h.png"
+        />
+    {/if}
 </div>
 
 <style>
