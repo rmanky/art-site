@@ -15,4 +15,8 @@
   :global(button) {
     @apply border-none;
   }
+
+  :global(img) {
+    @apply border-none;
+  }
 </style>
